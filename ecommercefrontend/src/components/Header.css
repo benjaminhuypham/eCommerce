@@ -1,0 +1,17 @@
+.Header {
+    border: 1px solid red; 
+    display: flex;
+    flex-direction: column;
+    background-color: lightblue;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex; 
+    justify-content: space-between
+}
+
+#cart {
+    display: flex; 
+    justify-content: center; 
+}

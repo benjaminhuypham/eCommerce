@@ -1,0 +1,33 @@
+.Cart {
+    border: 1px solid green; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.cartItems {
+    border: 1px solid red; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: lightgray;
+}
+
+.cartTotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue; 
+}
+
+.cartTotal > button {
+    margin: 10px;
+
+}
+
+.cartTotal > span {
+    margin: 5px; 
+}

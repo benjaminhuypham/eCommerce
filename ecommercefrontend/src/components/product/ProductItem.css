@@ -1,0 +1,9 @@
+.ProductItem {
+    border: 1px solid green; 
+    width: 24%;
+    text-align: center;
+    margin: 10px 0;
+    padding: 15px 0;
+    background-color:whitesmoke;
+    border-radius: 10px;
+}

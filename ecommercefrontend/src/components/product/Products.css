@@ -1,0 +1,21 @@
+.Products {
+    border: 1px solid green; 
+    display: flex; 
+    flex-direction: column;
+}
+
+#searchItems {
+    width: 20%;
+    height: 20px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.productItems {
+    border: 1px solid red; 
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: lightgray;
+}
